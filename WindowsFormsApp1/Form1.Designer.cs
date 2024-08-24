@@ -1,6 +1,6 @@
 ﻿using System.Reflection.Emit;
 
-namespace WindowsFormsApp1
+namespace Calculadora
 {
     partial class Form1
     {
