@@ -193,9 +193,7 @@ namespace Calculadora
 
         private void buttonCE_Click(object sender, EventArgs e)
         {
-            pantalla.Text = "0";
-            clrop();
-            resultadoActivo = true;
+            clrscr();
         }
 
         private void buttonExp_Click(object sender, EventArgs e)
@@ -205,7 +203,10 @@ namespace Calculadora
 
         private void buttonC_Click(object sender, EventArgs e)
         {
-            clrscr();
+            
+            pantalla.Text = "0";
+            clrop();
+            resultadoActivo = true;
         }
     }
 }
